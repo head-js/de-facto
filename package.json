@@ -1,0 +1,27 @@
+{
+  "name": "itsdangerous",
+  "version": "0.0.1",
+  "description": "Node port of itsdangerous python signer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbrls/itsdangerous"
+  },
+  "keywords": [
+    "signing",
+    "authentication",
+    "hmac",
+    "digest"
+  ],
+  "author": "hbrls<shuaizhexu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "scmp": "0.0.2"
+  },
+  "devDependencies": {
+    "tape": "~1.1.0"
+  }
+}
